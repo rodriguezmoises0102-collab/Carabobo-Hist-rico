@@ -1,35 +1,35 @@
 ---
 import Welcome from "../components/Welcome.astro";
 import Layout from "../layouts/Layout.astro";
-import { Icon } from 'astro-icon/components'
+import { Icon } from "astro-icon/components";
 ---
 
 <Layout>
-  <section>
-    <img src="/estadio.png" alt="">
+  <section class="relative overflow-hidden bg-blue-600/20 text-white">
+    <img class="absolute -z-10 w-full -top-2/3 left-0" src="/estadio.png" alt="" />
     <div>
-      <div>
+      <div class="flex flex-col items-start">
+        <p class="text-green-400 bg-green-200 px-5 py-5 font-bold">Road to the Final 2024</p>
         <div>
-          <p>Road to the Final 2024</p>
-        </div>
-        <div>
-          <p>SIENTE LA
-ENERGÍA KINÉTICA</p>
-          <p>Vive cada gol, cada emoción y cada momento de gloria del torneo más grande del mundo.</p>
+          <p class="text-white text-5xl">SIENTE LA ENERGÍA SINÉTICA</p>
+          <p>
+            Vive cada gol, cada emoción y cada momento de gloria del torneo más
+            grande del mundo.
+          </p>
         </div>
       </div>
       <div>
         <div>
           <div>
-            <p>PRÓXIMO GRAN PARTIDO</p>
-           </div>
+            <p class="text-yellow-300">PRÓXIMO GRAN PARTIDO</p>
+          </div>
           <div>
             <p>Fase de Grupos • 14 de junio</p>
           </div>
         </div>
         <div>
           <div>
-            icon
+            icon "lo pongo el clase"
             <p>BRAZIL</p>
           </div>
           <div>
@@ -59,26 +59,25 @@ ENERGÍA KINÉTICA</p>
           </div>
         </div>
       </div>
-
     </div>
   </section>
   <section>
-    <div>
-      <p>Titulares del torneo</p>
+    <div class="flex col">
+      <p class="text-blue-300">Titulares del torneo</p>
       <button>Ver titulares</button>
     </div>
 
     <div>
       <div>
         <div>
-          <img src="neymar.png" alt="">
+          <img src="neymar.png" alt="" />
         </div>
         <div>
-          <p>EXCLUSIVO</p>
+          <p class= "font-medium uppercase bg-blue-500 text-amber-50 px-6 py-2">EXCLUSIVO</p>
           <p>ESTRELLAS EMERGENTES: LOS DESVALIDOS SACUDEN EL GRUPO C</p>
-          <p>
-            Como las saciones mas pequellas estan desafiando las probabilidades y
-            reescribiendo el guion del torneo en esta dramatica fase de grupos
+          <p class="text-gray-500">
+            Como las saciones mas pequellas estan desafiando las probabilidades
+            y reescribiendo el guion del torneo en esta dramatica fase de grupos
           </p>
         </div>
       </div>
@@ -86,20 +85,20 @@ ENERGÍA KINÉTICA</p>
       <div>
         <div>
           <div>
-            <img src="/balon.png" alt="">
+            <img src="/balon.png" alt="" />
           </div>
           <div>
-            <p>Equipamientos</p>
-            <p>NUEVO BALON OFICIAL CON TECNOLOGIA INTEGRADA</p>
+            <p class="text-green-800">Equipamientos</p>
+            <p class="text-blue-800">NUEVO BALON OFICIAL CON TECNOLOGIA INTEGRADA</p>
           </div>
         </div>
         <div>
           <div>
-            <img src="/portero.png" alt="">
+            <img src="/portero.png" alt="" />
           </div>
           <div>
-            <p>Tacticas</p>
-            <p>MAESTROS DE LA DEFENSA: los mejores porteros del 2024</p>
+            <p class="text-orange-400">Tacticas</p>
+            <p class="text-blue-500">MAESTROS DE LA DEFENSA: los mejores porteros del 2024</p>
           </div>
         </div>
       </div>
@@ -108,52 +107,49 @@ ENERGÍA KINÉTICA</p>
 
   <section>
     <div>
-      <p>RESUMEN DE LOS PARTIDOS</p>
-      <p>Vuelve a ver los momentos mas explosivos de la semana</p>
+      <p class="text-blue-600">RESUMEN DE LOS PARTIDOS</p>
+      <p class="text-blue-600">Vuelve a ver los momentos mas explosivos de la semana</p>
     </div>
     <div>
       <div>
         <img src="/foto1.png" alt="" />
-        <p>Brazil vs south korea:todos los goles y resumen extendidos</p>
-        <p>GRUPO A+32M VISITAS +HACE 2H</p>
+        <p class="text-blue-600">Brazil vs south korea:todos los goles y resumen extendidos</p>
+        <p class="text-blue-600">GRUPO A+32M VISITAS +HACE 2H</p>
       </div>
 
       <div>
         <img src="/foto2.png" alt="" />
-        <p>
+        <p class="text-blue-600">
           milagro de ultimo minuto: gol de la victoria en tiempo de descuento
         </p>
-        <p>Grupo B+18M visitas+ hace 5H</p>
+        <p class="text-blue-600">Grupo B+18M visitas+ hace 5H</p>
       </div>
 
       <div>
         <img src="/foto3.png" alt="" />
-        <p>Reaccion de los fans anbiente en el estadiolusail esta noche</p>
-        <p>Cultura+890K visitas+hace 12H</p>
+        <p class="text-blue-600">Reaccion de los fans anbiente en el estadiolusail esta noche</p>
+        <p class="text-blue-600">Cultura+890K visitas+hace 12H</p>
       </div>
     </div>
   </section>
 
   <section>
-
     <div>
       <p>NO TE PIERDAS LA FINAL</p>
-     <div>
+      <div>
         <div>
-          <p>85%</p>
+          <p class="text-yellow-300">85%</p>
           <p>Capacidad alcanzada</p>
         </div>
         <div>
-          <p>12</p>
+          <p class="text-yellow-300">12</p>
           <p>Ciudades anfitrionas</p>
         </div>
         <div>
-          <p>32</p>
+          <p class="text-yellow-300">32</p>
           <p>Naciones que juegan</p>
         </div>
-     </div>
-
+      </div>
     </div>
   </section>
 </Layout>
-
