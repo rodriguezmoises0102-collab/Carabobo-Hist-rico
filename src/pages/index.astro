@@ -5,57 +5,62 @@ import { Icon } from "astro-icon/components";
 ---
 
 <Layout>
-  <section class="relative overflow-hidden bg-blue-600/20 text-white">
-    <img class="absolute -z-10 w-full -top-2/3 left-0" src="/estadio.png" alt="" />
+  <section class="relative overflow-hidden bg-blue-950/85 text-white flex-items-center py-50">
+    <img class="absolute -z-10 w-full -top-2/3 left-0 object-cover" src="/estadio.png" alt="" />
     <div class="flex flex-1">
       <div class="flex flex-col items-start px-12 py-12">
         <div class="inline-flex items-center gap-2 bg-secondary/20 backdrop-blur-md px-4 py-1.5 rounded-full border border-secondary/30">
           <p class="text-secondary-fixed text-xs font-bold uppercase tracking-widest font-label">Road to the Final 2024</p>
         </div>
         <div>
-          <p class="text-white text-7xl font-bold ">SIENTE LA ENERGÍA SINÉTICA</p>
+          <p class="text-white text-7xl font-bold ">SIENTE LA</p>
+          <p class="text-yellow-300 text-7xl font-bold">ENERGÍA</p>
+          <p class="text-yellow-300 text-7xl font-bold">SINÉTICA</p>
           <p>
             Vive cada gol, cada emoción y cada momento de gloria del torneo más
             grande del mundo.
           </p>
         </div>
       </div>
-      <div class="borde border-gray-700 bg-gray-700 bg-sunface-container-lowest/10 justify-end py-30 px-30">
+      <div class="borde border-white/10 bg-blue-950/90 bg-sunface-container-lowest/10 justify-end py-20 px-10">
         <div>
-          <div>
-            <p class="text-yellow-300">PRÓXIMO GRAN PARTIDO</p>
-          </div>
-          <div>
+          <div class="flex gap-50">
+            <p class="text-yellow-300 font-bold">PRÓXIMO GRAN PARTIDO</p>
             <p class="text-xs font-bold text-gray-500">Fase de Grupos • 14 de junio</p>
           </div>
         </div>
-        <div class="flex items-center">
+        <div class="flex items-center gap-30 py-8">
           <div>
+<<<<<<< HEAD
            <Icon name="brazil" size={35}></Icon>
             <p class="font-bold">BRAZIL</p>
+=======
+           <Icon name="brazil" size={50}></Icon>
+            <p class="font-bold py-5">BRAZIL</p>
+>>>>>>> 7fc1dae372979e9f5b8cbb1af002cab57c4b25d8
           </div>
           <div class="flex-1 text-center">
             <p class="text-gray-500 font-bold text-3xl">VS</p>
           </div>
           <div>
-            <Icon name="francia" size={35}></Icon>
-            <p class="font-bold ">FRANCIA</p>
+            <Icon name="francia" size={50}></Icon>
+            <p class="font-bold py-5">FRANCIA</p>
           </div>
         </div>
-        <div class="flex">
-          <div>
+        <div class="flex gap-10">
+          <div class="inline-flex bg-gray-500/50 py-5 px-4">
             <p class="font-bold text-2xl">04</p>
             <p class="text-gray-500 text-xs font-bold">DIAS</p>
           </div>
-          <div>
+          <div class="inline-flex bg-gray-500/50 py-5 px-4">
             <p class="font-bold text-2xl">12</p>
             <p class="text-gray-500 text-xs font-bold">HORAS</p>
           </div>
-          <div>
+          <div class="inline-flex bg-gray-500/50 py-5 px-4">
             <p class="font-bold text-2xl">45</p>
             <p class="font-bold text-gray-500 text-xs">MINUTOS</p>
           </div>
-          <div>
+          <div class="inline-flex bg-gray-500/50 py-5 px-4">
             <p class="font-bold text-2xl">22</p>
             <p class="font-bold text-gray-500 text-xs">SEGUNDOS</p>
           </div>
