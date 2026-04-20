@@ -3,15 +3,20 @@ import Layout from "../layouts/Layout.astro";
 ---
 
 <Layout>
-    <section class="relative overflow-hidden px-12 py-32">
+    <section class="relative overflow-hidden py-60 bg-blue-950/85">
         <div>
             <img class="absolute -top-2/3 left-0 w-full -z-10" src="/estadio2.png" alt="" />
         </div>
-        <div>
-            <div>
-                <p class="font-bold text-yellow-200">NACIÓN ANFITRIONA 2024</p>
-                <p class="text-white text-8xl font-bold">LA GLORIA ARQUITECTÓNICA ALBERGA EL JUEGO.</p>
-                <p class="font-bold text-gray-500">
+        <div class="flex flex-col px-20">
+            <div class="justify-start">
+                <p class="font-bold text-amber-200 bg-yellow-700 inline-flex py-1 px-8">NACIÓN ANFITRIONA 2024</p>
+                <p class="text-white text-8xl font-bold">LA GLORIA</p>
+                <p class="text-yellow-300 text-8xl font-bold">ARQUITECTÓNICA</p>
+                <div class="flex gap-6">
+                    <p class="text-yellow-300 text-8xl font-bold">ALBERGA</p>
+                    <p class="text-white text-8xl font-bold">EL JUEGO.</p>
+                </div>
+                <p class="font-bold py-15  text-white text-xl">
                     Explora los 12 estadios de clase mundial donde se escribirá
                     la historia. Desde joyas costeras sostenibles hasta
                     fortalezas de montaña a gran altitud.
@@ -24,27 +29,28 @@ import Layout from "../layouts/Layout.astro";
             1er div
             <div>
                 2do div
-                <div>
+                <div class="relative overflow-hidden px-10 py-5">
                     3er div
-                    <img src="/estadio3.png" alt="" />
+                    <img class="absolute left-0 top-0" src=/estadio3.png" alt="" />
                     <div>
                         5to div icon
-                        <p>SEDE SELECCIONADA</p>
-                        <p>Gran Estadio de Lusail</p>
+                        <p class="text-xs">SEDE SELECCIONADA</p>
+                        <p class="font-bold text-blue-950">Gran Estadio de Lusail</p>
                     </div>
                 </div>
                 <div>
                     4to div
                     <div>
-                        <p>Estadísticas de las Sedes</p>
+                        <p class="font-bold text-blue-950">Estadísticas de las Sedes</p>
                     </div>
                     <div>
                         <div>
-                            <p>12 TOTAL DE ESTADIOS</p>
+                            <p class="font-bold text-green-900">12</p>
+                            <p class="font-bold text-blue-950 text-xs">TOTAL DE ESTADIOS</p>
                         </div>
                         <div>
-                            <p>1,2 millones</p>
-                            <p>CAPACIDAD TOTAL</p>
+                            <p class="font-bold text-yellow-800">1,2 millones</p>
+                            <p class="font-bold text-blue-950 text-xs">CAPACIDAD TOTAL</p>
                         </div>
                     </div>
                 </div>
@@ -57,14 +63,14 @@ import Layout from "../layouts/Layout.astro";
                     <div>
                         <div>
                             <p>SEDE DE LA FINAL ubicación_en Capital</p>
-                            <p>El Estadio del Anillo de Oro</p>
+                            <p class="font-bold text-3xl">El Estadio del Anillo de Oro</p>
                         </div>
                         <div>
-                            <p>88.000</p>
-                            <p>CAPACIDAD</p>
+                            <p class="font-bold text-yellow-300 text-xl">88.000</p>
+                            <p class="font-bold text-xs">CAPACIDAD</p>
                         </div>
                         <div>
-                            <p>
+                            <p class="font-bold">
                                 Inspirado en el intrincado juego de luces y
                                 sombras de las linternas tradicionales, el
                                 Golden Ring Stadium presenta un techo único en
