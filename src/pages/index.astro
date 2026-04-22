@@ -5,15 +5,27 @@ import { Icon } from "astro-icon/components";
 ---
 
 <Layout>
-  <section class="relative overflow-hidden bg-blue-950/85 text-white flex-items-center py-50">
-    <img class="absolute -z-10 w-full -top-2/3 left-0 object-cover" src="/estadio.png" alt="" />
+  <section
+    class="relative overflow-hidden bg-blue-950/85 text-white flex-items-center py-50"
+  >
+    <img
+      class="absolute -z-10 w-full -top-2/3 left-0 object-cover"
+      src="/estadio.png"
+      alt=""
+    />
     <div class="flex flex-1">
       <div class="flex flex-col items-start px-12 py-12">
-        <div class="inline-flex items-center gap-2 bg-secondary/20 backdrop-blur-md px-4 py-1.5 rounded-full border border-secondary/30">
-          <p class="text-secondary-fixed text-xs font-bold uppercase tracking-widest font-label">Road to the Final 2024</p>
+        <div
+          class="inline-flex items-center gap-2 bg-secondary/20 backdrop-blur-md px-4 py-1.5 rounded-full border border-secondary/30"
+        >
+          <p
+            class="text-secondary-fixed text-xs font-bold uppercase tracking-widest font-label"
+          >
+            Road to the Final 2024
+          </p>
         </div>
         <div>
-          <p class="text-white text-7xl font-bold ">SIENTE LA</p>
+          <p class="text-white text-7xl font-bold">SIENTE LA</p>
           <p class="text-yellow-300 text-7xl font-bold">ENERGÍA</p>
           <p class="text-yellow-300 text-7xl font-bold">SINÉTICA</p>
           <p>
@@ -22,23 +34,27 @@ import { Icon } from "astro-icon/components";
           </p>
         </div>
       </div>
-      <div class="borde border-white/10 bg-blue-950/90 bg-sunface-container-lowest/10 justify-end py-20 px-10">
+      <div
+        class="borde border-white/10 bg-blue-950/90 bg-sunface-container-lowest/10 justify-end py-20 px-10"
+      >
         <div>
           <div class="flex gap-50">
             <p class="text-yellow-300 font-bold">PRÓXIMO GRAN PARTIDO</p>
-            <p class="text-xs font-bold text-gray-500">Fase de Grupos • 14 de junio</p>
+            <p class="text-xs font-bold text-gray-500">
+              Fase de Grupos • 14 de junio
+            </p>
           </div>
         </div>
         <div class="flex items-center gap-30 py-8">
           <div>
-            <Icon name="brazil" size={50}></Icon>
+            <Icon name="brazil" size={50} />
             <p class="font-bold py-5">BRAZIL</p>
           </div>
           <div class="flex-1 text-center">
             <p class="text-gray-500 font-bold text-3xl">VS</p>
           </div>
           <div>
-            <Icon name="francia" size={50}></Icon>
+            <Icon name="francia" size={50} />
             <p class="font-bold py-5">FRANCIA</p>
           </div>
         </div>
@@ -64,104 +80,146 @@ import { Icon } from "astro-icon/components";
     </div>
   </section>
   <section class="py-24 bg-surface px-6">
-      <div class="flex flex-1 gap-120 py-15">
-        <p class="text-blue-950 text-5xl font-bold uppercase space-y-4">Titulares del torneo</p>
-        <button class="text-primary font-bold font-label flex items-center gap-2 hover:translate-x-1 transition-transform">VER TODAS LAS NOTICIAS</button>
+    <div class="flex flex-1 gap-120 py-15">
+      <p class="text-blue-950 text-5xl font-bold uppercase space-y-4">
+        Titulares del torneo
+      </p>
+      <button
+        class="text-primary font-bold font-label flex items-center gap-2 hover:translate-x-1 transition-transform"
+        >VER TODAS LAS NOTICIAS</button
+      >
+    </div>
+
+    <div class="flex gap-4 ">
+      <div class="relative overflow-hidden flex items-end">
+        <div class="absolute h-full w-full -z-10">
+          <img
+            class="w-full h-full object-cover"
+            src="foto-incio.png"
+            alt=""
+          />
+
+        </div>
+        <div class=" p-5">
+          <p class="font-bold text-amber-200 bg-yellow-700 inline-flex">
+            EXCLUSIVOS
+          </p>
+          <p class="font-bold text-white text-6xl">
+            ESTRELLAS EMERGENTES: LOS DESVALIDOS SACUDEN EL GRUPO C
+          </p>
+          <p class="text-gray-400 text-xl">
+            Como las saciones mas pequellas estan desafiando las probabilidades
+            y reescribiendo el guion del torneo en esta dramatica fase de grupos
+          </p>
+        </div>
       </div>
-  
-      <div class="flex gap-4">
-        <div class="relative overflow-hidden">
-            <img class="absolute object-cover h-full w-full -z-10" src="foto-incio.png" alt="" />
-          <div class="">
-            <p class= "font-bold text-amber-200 bg-yellow-700 inline-flex">EXCLUSIVOS </p>
-            <p class="font-bold text-white text-6xl">ESTRELLAS EMERGENTES: LOS DESVALIDOS SACUDEN EL GRUPO C</p>
-            <p class="text-gray-400 text-xl">
-              Como las saciones mas pequellas estan desafiando las probabilidades
-              y reescribiendo el guion del torneo en esta dramatica fase de grupos
+
+      <div class="">
+        <div class="">
+          <div>
+            <img src="/balon.png" alt="" />
+          </div>
+          <div class="py-3">
+            <p class="text-green-800 font-bold text-xs py-1">Equipamientos</p>
+            <p class="text-blue-950 font-bold">
+              NUEVO BALON OFICIAL CON TECNOLOGIA INTEGRADA
             </p>
           </div>
         </div>
-  
-        <div class="">
-          <div class="">
-            <div>
-              <img src="/balon.png" alt="" />
-            </div>
-            <div class="py-3">
-              <p class="text-green-800 font-bold text-xs py-1">Equipamientos</p>
-              <p class="text-blue-950 font-bold">NUEVO BALON OFICIAL CON TECNOLOGIA INTEGRADA</p>
-            </div>
-        </div>
-          <div class="cursor-pointer">
-            <div>
-              <img src="/portero.png" alt="" />
-            </div>
-            <div class="py-3">
-              <p class="text-red-500 font-bold text-xs py-1">Tacticas</p>
-              <p class="text-blue-950 font-bold">MAESTROS DE LA DEFENSA: los mejores porteros del 2024</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="py-24 px-6 bg-surface-container-low gap-8">
-    <div class="mb-16">
-      <p class="text-blue-950 font-bold text-4xl">RESUMENES DE</p>
-      <p class="text-blue-950 font-bold text-4xl">LOS PARTIDOS</p>
-      <p class="text-gray-600 font-bold text-xs py-2">Vuelve a ver los momentos mas explosivos de la semana</p>
-    </div>
-    <div class="flex gap-5">
-      <div class="flex-1 bg-surface-container-lowest overflow-hidden shadow-xl shadow-primary/5 group cursor-pointer">
-        <img src="/foto1.png" alt="" />
-        <div class="p-8 space-y-2">
-          <p class="text-blue-950 font-bold">Brazil vs south korea:todos los goles y resumen extendidos</p>
-          <p class="text-gray-600 font-bold text-xs">GRUPO A+32M VISITAS +HACE 2H</p>
-        </div>
-      </div>
-
-      <div class="flex-1 bg-surface-container-lowest overflow-hidden shadow-xl shadow-primary/5 group cursor-pointer">
-        <img src="/foto2.png" alt="" />
-        <div class="p-8 space-y-2">
-          <p class="text-blue-950 font-bold">
-            milagro de ultimo minuto: gol de la victoria en tiempo de descuento
-        </div>
-        </p>
-        <p class="text-gray-600 font-bold text-xs">Grupo B+18M visitas+ hace 5H</p>
-      </div>
-
-      <div class="flex-1 bg-surface-container-lowest overflow-hidden shadow-xl shadow-primary/5 group cursor-pointer">
-        <img src="/foto3.png" alt="" />
-        <div class="p-8 space-y-2">
-          <p class="text-blue-950 font-bold">Reaccion de los fans anbiente en el estadiolusail esta noche</p>
-          <p class="text-gray-600 font-bold text-xs ">Cultura+890K visitas+hace 12H</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="py-24 px-6 lg:px-12 bg-surface overflow-hidden">
-    <div class="bg-blue-950 rounded-2xl py-30 max-w-screen-2xl mx-auto">
-      <div class="bg-primary p-12 relative overflow-hidden flex flex-col items-center text-center">
-        <p class="text-white text-6xl font-bold">NO TE PIERDAS LA FINAL</p>
-        <p class="text-white text-6xl font-bold">FINAL</p>
-        <p class="text-white font-bold py-5">Las entradas se agotan rápido para el clímax del torneo. Asegura tu asiento y sé testigo de la historia.</p>
-        <div class="flex gap-7">
+        <div class="cursor-pointer">
           <div>
-            <p class="text-yellow-400 font-bold text-xl">85%</p>
-            <p class="text-gray-500 font-bold">Capacidad alcanzada</p>
+            <img src="/portero.png" alt="" />
           </div>
-          <div>
-            <p class="text-yellow-400 font-bold text-xl">12</p>
-            <p class="text-gray-500 font-bold">Ciudades anfitrionas</p>
-          </div>
-          <div>
-            <p class="text-yellow-400 font-bold text-xl">32</p>
-            <p class="text-gray-500 font-bold">Naciones que juegan</p>
+          <div class="py-3">
+            <p class="text-red-500 font-bold text-xs py-1">Tacticas</p>
+            <p class="text-blue-950 font-bold">
+              MAESTROS DE LA DEFENSA: los mejores porteros del 2024
+            </p>
           </div>
         </div>
       </div>
     </div>
   </section>
 </Layout>
+
+<section class="py-24 px-6 bg-surface-container-low gap-8">
+  <div class="mb-16">
+    <p class="text-blue-950 font-boldtext-4xl">RESUMENES DE</p>
+    <p class="text-blue-950 font-bold text-4xl">LOS PARTIDOS</p>
+    <p class="text-gray-600 font-bold text-xs py-2">
+      Vuelve a ver los momentos mas explosivos de la semana
+    </p>
+  </div>
+  <div class="flex gap-5">
+    <div
+      class="flex-1 bg-surface-container-lowest overflow-hidden shadow-xl shadow-primary/5 group cursor-pointer"
+    >
+      <img class="h-100 w-full" src="/foto1.png" alt="" />
+      <div class="p-8 space-y-2">
+        <p class="text-blue-950 font-bold">
+          Brazil vs south korea:todos los goles y resumen extendidos
+        </p>
+        <p class="text-gray-600 font-bold text-xs">
+          GRUPO A+32M VISITAS +HACE 2H
+        </p>
+      </div>
+    </div>
+
+    <div
+      class="flex-1 bg-surface-container-lowest overflow-hidden shadow-xl shadow-primary/5 group cursor-pointer"
+    >
+      <img class="h-100 w-full object-cover" src="/foto2.png" alt="" />
+      <div class="p-8 space-y-2">
+        <p class="text-blue-950 font-bold">
+          milagro de ultimo minuto: gol de la victoria en tiempo de descuento
+        </p>
+      </div>
+      <p class="text-gray-600 font-bold text-xs">
+        Grupo B+18M visitas+ hace 5H
+      </p>
+    </div>
+
+    <div
+      class="flex-1 bg-surface-container-lowest overflow-hidden shadow-xl shadow-primary/5 group cursor-pointer"
+    >
+      <img class="h-100 w-full" src="/foto3.png" alt="" />
+      <div class="p-8 space-y-2">
+        <p class="text-blue-950 font-bold">
+          Reaccion de los fans anbiente en el estadiolusail esta noche
+        </p>
+        <p class="text-gray-600 font-bold text-xs">
+          Cultura+890K visitas+hace 12H
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="py-24 px-6 lg:px-12 bg-surface overflow-hidden">
+  <div class="bg-blue-950 rounded-2xl py-30 max-w-screen-2xl mx-auto">
+    <div
+      class="bg-primary p-12 relative overflow-hidden flex flex-col items-center text-center"
+    >
+      <p class="text-white text-6xl font-bold">NO TE PIERDAS LA FINAL</p>
+      <p class="text-white text-6xl font-bold">FINAL</p>
+      <p class="text-white font-bold py-5">
+        Las entradas se agotan rápido para el clímax del torneo. Asegura tu
+        asiento y sé testigo de la historia.
+      </p>
+      <div class="flex gap-7">
+        <div>
+          <p class="text-yellow-400 font-bold text-xl">85%</p>
+          <p class="text-gray-500 font-bold">Capacidad alcanzada</p>
+        </div>
+        <div>
+          <p class="text-yellow-400 font-bold text-xl">12</p>
+          <p class="text-gray-500 font-bold">Ciudades anfitrionas</p>
+        </div>
+        <div>
+          <p class="text-yellow-400 font-bold text-xl">32</p>
+          <p class="text-gray-500 font-bold">Naciones que juegan</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
