@@ -1,5 +1,6 @@
 ---
 import Layout from "../layouts/Layout.astro";
+import { Icon } from 'astro-icon/components'
 ---
 
 <Layout>
@@ -33,358 +34,195 @@ import Layout from "../layouts/Layout.astro";
         </section>
 
         <section>
-            <div>
-                <div>
-                    <div class="py-5 flex justify-center items-center">
-                        <p
-                            class="font-bold text-blue-950 text-2xl uppercase tracking-widest"
-                        >
-                            Hoy . 18 de Junio
-                        </p>
-                    </div>
 
-                    <div class="flex gap-6 p-4">
-                        <div
-                            class="bg-surface-container-lowest border-l-4 border-red-600 rounded-lg px-6 py-4 flex-1"
-                        >
-                            <div class="flex justify-between items-center py-2">
-                                <p class="font-bold text-blue-950 text-xs">
-                                    Grupo A • PARTIDO 14
-                                </p>
-                                <p
-                                    class="text-red-500 text-xs font-bold bg-red-100 px-2 py-1 rounded-full"
-                                >
-                                    ● EN VIVO 62'
-                                </p>
-                            </div>
-                            <div class="flex items-center justify-between py-6">
-                                <div class="flex flex-col items-center gap-2">
-                                    <div
-                                        class="w-16 h-16 bg-blue-950 rounded-full flex items-center justify-center"
-                                    >
-                                        Icon
-                                    </div>
-                                    <p class="font-bold text-blue-950 text-xl">
-                                        Francia
-                                    </p>
-                                </div>
-                                <div class="flex flex-col items-center">
-                                    <p class="font-bold text-blue-950 text-3xl">
-                                        2 - 1
-                                    </p>
-                                    <p
-                                        class="font-bold text-yellow-500 text-xs uppercase"
-                                    >
-                                        Estadio de Francia
-                                    </p>
-                                </div>
-                                <div class="flex flex-col items-center gap-2">
-                                    <div
-                                        class="w-16 h-16 bg-blue-950 rounded-full flex items-center justify-center"
-                                    >
-                                        Icon
-                                    </div>
-                                    <p class="font-bold text-blue-950 text-xl">
-                                        Brazil
-                                    </p>
-                                </div>
-                            </div>
 
-                            <div
-                                class="bg-blue-950 py-3 rounded-lg flex justify-center items-center gap-2 mt-2"
-                            >
-                                <p class="text-white font-bold">
-                                    Ver Centro del Partido →
-                                </p>
-                            </div>
-                        </div>
+<div class="bg-gray-100 p-8 flex flex-col gap-12 font-bold text-slate-900">
 
-                        <div
-                            class="bg-white border border-gray-200 rounded-lg px-6 py-4 flex-1"
-                        >
-                            <div class="flex justify-between items-center py-2">
-                                <p class="font-bold text-blue-950 text-xs">
-                                    Grupo B • PARTIDO 15
-                                </p>
-                                <p
-                                    class="text-gray-500 text-xs bg-gray-100 px-2 py-1 rounded-md"
-                                >
-                                    21:00 LOCAL
-                                </p>
-                            </div>
+  <div class="flex flex-col lg:flex-row gap-8">
+    
+    <div class="flex-[2] flex flex-col gap-8">
+      
+      <div class="flex items-center gap-4">
+        <div class="bg-gray-300 h-px flex-1"></div>
+        <div class="text-blue-900 font-bold text-xs tracking-[0.2em] uppercase">Hoy • 18 de Junio</div>
+        <div class="bg-gray-300 h-px flex-1"></div>
+      </div>
 
-                            <div class="flex items-center justify-between py-6">
-                                <div class="flex flex-col items-center gap-2">
-                                    <div
-                                        class="w-16 h-16 bg-gray-200 rounded-full flex items-center justify-center border border-gray-300"
-                                    >
-                                        Icon
-                                    </div>
-                                    <p class="font-bold text-blue-950 text-xl">
-                                        Japon
-                                    </p>
-                                </div>
-                                <div class="flex flex-col items-center">
-                                    <p class="text-gray-300 text-2xl font-bold">
-                                        VS
-                                    </p>
-                                    <p
-                                        class="font-bold text-yellow-500 text-xs uppercase"
-                                    >
-                                        Doha Arena
-                                    </p>
-                                </div>
-                                <div class="flex flex-col items-center gap-2">
-                                    <div
-                                        class="w-16 h-16 bg-gray-200 rounded-full flex items-center justify-center border border-gray-300"
-                                    >
-                                        Icon
-                                    </div>
-                                    <p class="font-bold text-blue-950 text-xl">
-                                        España
-                                    </p>
-                                </div>
-                            </div>
-
-                            <div
-                                class="bg-blue-100 py-3 rounded-lg flex justify-center items-center gap-2 mt-2"
-                            >
-                                <p class="text-blue-950 font-bold">
-                                    🎫 Comprar Entradas
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="py-5 flex justify-center items-center">
-                        <p
-                            class="font-bold text-gray-500 text-2xl uppercase tracking-widest"
-                        >
-                            MAÑANA . 19 DE JUNIO
-                        </p>
-                    </div>
-
-                    <div class="flex flex-col gap-4 p-4">
-                        <div
-                            class="bg-blue-50 rounded-2xl p-4 flex items-center justify-between"
-                        >
-                            <div class="flex items-center gap-8">
-                                <p class="text-blue-200 text-2xl font-bold">
-                                    16
-                                </p>
-
-                                <div class="flex items-center gap-4">
-                                    <div class="flex items-center gap-2">
-                                        <div
-                                            class="w-10 h-10 bg-blue-400 rounded-full flex items-center justify-center"
-                                        >
-                                            Icon
-                                        </div>
-                                        <p class="font-bold text-blue-950">
-                                            Argentina
-                                        </p>
-                                    </div>
-
-                                    <p class="text-gray-400 italic text-sm">
-                                        vs
-                                    </p>
-
-                                    <div class="flex items-center gap-2">
-                                        <div
-                                            class="w-10 h-10 bg-green-800 rounded-full flex items-center justify-center"
-                                        >
-                                            Icon
-                                        </div>
-                                        <p class="font-bold text-blue-950">
-                                            Croatia
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="flex items-center gap-6">
-                                <div class="text-right">
-                                    <p
-                                        class="text-yellow-600 font-bold text-xs"
-                                    >
-                                        GROUP C
-                                    </p>
-                                    <p class="text-blue-950 font-bold text-lg">
-                                        15:00
-                                    </p>
-                                </div>
-                                <p class="text-gray-300 text-xl">></p>
-                            </div>
-                        </div>
-
-                        <div
-                            class="bg-blue-50 rounded-2xl p-4 flex items-center justify-between"
-                        >
-                            <div class="flex items-center gap-8">
-                                <p class="text-blue-200 text-2xl font-bold">
-                                    17
-                                </p>
-
-                                <div class="flex items-center gap-4">
-                                    <div class="flex items-center gap-2">
-                                        <div
-                                            class="w-10 h-10 bg-gray-100 rounded-full flex items-center justify-center"
-                                        >
-                                            Icon
-                                        </div>
-                                        <p class="font-bold text-blue-950">
-                                            England
-                                        </p>
-                                    </div>
-
-                                    <p class="text-gray-400 italic text-sm">
-                                        vs
-                                    </p>
-
-                                    <div class="flex items-center gap-2">
-                                        <div
-                                            class="w-10 h-10 bg-green-900 rounded-full flex items-center justify-center"
-                                        >
-                                            Icon
-                                        </div>
-                                        <p class="font-bold text-blue-950">
-                                            USA
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="flex items-center gap-6">
-                                <div class="text-right">
-                                    <p
-                                        class="text-yellow-600 font-bold text-xs"
-                                    >
-                                        GROUP D
-                                    </p>
-                                    <p class="text-blue-950 font-bold text-lg">
-                                        19:00
-                                    </p>
-                                </div>
-                                <p class="text-gray-300 text-xl">></p>
-                            </div>
-                        </div>
-                    </div>
-                    <div>
-                        <div>
-                            <p>Camino a la final</p>
-                            <p>El camino hacia la final</p>
-                        </div>
-                        <div>
-                            <div>
-                                <div>
-                                    <div>
-                                        <p>Partido 49</p>
-                                        <p>Ganador</p>
-                                        <p>Segundo</p>
-                                    </div>
-                                    <div>
-                                        <p>Partido 50</p>
-                                        <p>Ganador</p>
-                                        <p>Segundo</p>
-                                    </div>
-                                </div>
-
-                                <div>
-                                    <p>Cuarto de final</p>
-                                </div>
-                                <div>
-                                    icon "lo pongo en clase"
-                                    <p>Final</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div>
-                    <div>
-                        <div>
-                            <p>Clasificación</p>
-                        </div>
-                        <div>
-                            <button>GRUPO A</button>
-                        </div>
-                    </div>
-                    <div>
-                        <div>
-                            <p>EQUIPOS</p>
-                        </div>
-                        <div>
-                            <div>
-                                <p>P</p>
-                            </div>
-                            <div>
-                                <p>GD</p>
-                            </div>
-                            <div>
-                                <p>PUNTOS</p>
-                            </div>
-                        </div>
-                        <div>
-                            <div>
-                                <div>
-                                    icon "lo pongo en clase"
-                                    <p>FRANCIA</p>
-                                    <div>
-                                        <p>2</p>
-                                    </div>
-                                    <div>
-                                        <p>+4</p>
-                                    </div>
-                                    <div>
-                                        <p>6</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div>
-                                ICON "LO PONGO EN CLASE"
-                                <p>BRAZIL</p>
-                                <div>
-                                    <p>2</p>
-                                </div>
-                                <div>
-                                    <p>+2</p>
-                                </div>
-                                <div>
-                                    <p>3</p>
-                                </div>
-                            </div>
-                            <div>
-                                icon "lo pongo en clase"
-                                <p>KOREA</p>
-                                <div>
-                                    <p>2</p>
-                                </div>
-                                <div>
-                                    <p>-1</p>
-                                </div>
-                                <div>
-                                    <p>1</p>
-                                </div>
-                            </div>
-
-                            <div>
-                                icon "lo pongo en clase"
-                                <p>GHANA</p>
-                                <div>
-                                    <p>2</p>
-                                </div>
-                                <div>
-                                    <p>-5</p>
-                                </div>
-                                <div>
-                                    <p>5</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+      <div class="flex flex-col md:flex-row gap-4">
+        <div class="bg-white rounded-2xl shadow-sm p-6 flex-1 border-l-[6px] border-red-500 flex flex-col gap-6">
+          <div class="flex justify-between items-center text-[10px] font-bold">
+            <div class="text-gray-400 uppercase tracking-wider">Grupo A • Partido 14</div>
+            <div class="bg-red-50 text-red-600 px-2 py-1 rounded flex items-center gap-1">
+              <div class="w-1.5 h-1.5 bg-red-600 rounded-full"></div> EN VIVO 62'
             </div>
-        </section>
+          </div>
+          <div class="flex justify-between items-center">
+            <div class="flex flex-col items-center gap-2">
+                <Icon name="brazil"/>
+              <div class="w-14 h-14 bg-blue-700 rounded-full shadow-inner flex items-center justify-center text-white text-xs">FRA</div>
+              <div class="font-bold text-sm">France</div>
+            </div>
+            <div class="text-center">
+              <div class="text-4xl font-black text-slate-900 tracking-tighter">2 - 1</div>
+              <div class="text-[9px] text-gray-400 mt-1">Stadium de France</div>
+            </div>
+            <div class="flex flex-col items-center gap-2">
+              <div class="w-14 h-14 bg-green-700 rounded-full shadow-inner flex items-center justify-center text-white text-xs">BRA</div>
+              <div class="font-bold text-sm">Brazil</div>
+            </div>
+          </div>
+          <div class="bg-[#002855] text-white text-center py-3 rounded-xl font-bold text-xs flex items-center justify-center gap-2 cursor-pointer">
+            Ver Centro del Partido <div class="text-lg leading-none">→</div>
+          </div>
+        </div>
+
+        <div class="bg-white rounded-2xl shadow-sm p-6 flex-1 flex flex-col gap-6">
+          <div class="flex justify-between items-center text-[10px] font-bold">
+            <div class="text-gray-400 uppercase tracking-wider">Grupo B • Partido 15</div>
+            <div class="border border-gray-200 px-3 py-1 rounded text-slate-700">21:00 LOCAL</div>
+          </div>
+          <div class="flex justify-between items-center">
+            <div class="flex flex-col items-center gap-2">
+              <div class="w-14 h-14 bg-gray-100 rounded-full flex items-center justify-center text-gray-400 border border-gray-200">JPN</div>
+              <div class="font-bold text-sm">Japan</div>
+            </div>
+            <div class="text-center">
+              <div class="text-2xl font-black text-gray-200 italic">VS</div>
+              <div class="text-[9px] text-gray-400 mt-1">Doha Arena</div>
+            </div>
+            <div class="flex flex-col items-center gap-2">
+              <div class="w-14 h-14 bg-red-600 rounded-full flex items-center justify-center text-white text-xs">ESP</div>
+              <div class="font-bold text-sm">Spain</div>
+            </div>
+          </div>
+          <div class="bg-blue-50 text-blue-900 text-center py-3 rounded-xl font-bold text-xs flex items-center justify-center gap-2 border border-blue-100">
+            <div class="w-4 h-4 border border-blue-900 rounded-sm"></div> Comprar Entradas
+          </div>
+        </div>
+      </div>
+
+      <div class="flex items-center gap-4 mt-4">
+        <div class="bg-gray-300 h-px flex-1"></div>
+        <div class="text-gray-400 font-bold text-xs tracking-[0.2em] uppercase">Mañana • 19 de Junio</div>
+        <div class="bg-gray-300 h-px flex-1"></div>
+      </div>
+
+      <div class="flex flex-col gap-3">
+        <div class="bg-white p-4 px-6 rounded-2xl shadow-sm flex items-center justify-between border border-transparent hover:border-blue-200 transition-all">
+          <div class="flex items-center gap-8">
+            <div class="text-gray-300 font-black italic text-xl">16</div>
+            <div class="flex items-center gap-3 font-bold text-sm"><div class="w-7 h-7 bg-blue-400 rounded-full"></div> Argentina</div>
+            <div class="text-gray-300 text-xs italic font-bold">vs</div>
+            <div class="flex items-center gap-3 font-bold text-sm"><div class="w-7 h-7 bg-green-900 rounded-full"></div> Croatia</div>
+          </div>
+          <div class="flex items-center gap-8">
+            <div class="text-right"><div class="text-[9px] font-bold text-gray-400">GROUP C</div><div class="font-black text-sm">15:00</div></div>
+            <div class="text-gray-300 text-2xl font-light">›</div>
+          </div>
+        </div>
+        <div class="bg-white p-4 px-6 rounded-2xl shadow-sm flex items-center justify-between">
+          <div class="flex items-center gap-8">
+            <div class="text-gray-300 font-black italic text-xl">17</div>
+            <div class="flex items-center gap-3 font-bold text-sm"><div class="w-7 h-7 bg-green-800 rounded-full"></div> England</div>
+            <div class="text-gray-300 text-xs italic font-bold">vs</div>
+            <div class="flex items-center gap-3 font-bold text-sm"><div class="w-7 h-7 bg-slate-800 rounded-full"></div> USA</div>
+          </div>
+          <div class="flex items-center gap-8">
+            <div class="text-right"><div class="text-[9px] font-bold text-gray-400">GROUP D</div><div class="font-black text-sm">19:00</div></div>
+            <div class="text-gray-300 text-2xl font-light">›</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="flex-1 flex flex-col gap-6">
+      <div class="bg-white rounded-[2rem] shadow-sm p-7">
+        <div class="flex justify-between items-center mb-6">
+          <div class="font-black text-blue-950 text-lg">Clasificación</div>
+          <div class="text-green-600 text-[11px] font-bold bg-green-50 px-3 py-1.5 rounded-lg flex items-center gap-1">Grupo A <span class="text-[8px]">▼</span></div>
+        </div>
+        <div class="flex flex-col gap-1">
+          <div class="flex text-[9px] font-bold text-gray-400 px-3 mb-2 uppercase tracking-tighter">
+            <div class="flex-1">Equipo</div>
+            <div class="w-7 text-center">P</div><div class="w-7 text-center">GD</div><div class="w-7 text-center text-blue-900">Pts</div>
+          </div>
+          <div class="flex items-center p-3 bg-gray-50 rounded-xl">
+            <div class="flex-1 flex items-center gap-3 font-bold text-xs text-blue-950">
+              <div class="w-1 h-5 bg-green-600 rounded-full"></div><div class="w-6 h-6 bg-blue-600 rounded-full"></div> FRA
+            </div>
+            <div class="w-7 text-center text-xs font-medium">2</div><div class="w-7 text-center text-xs font-medium">+4</div><div class="w-7 text-center text-xs font-black">6</div>
+          </div>
+          <div class="flex items-center p-3">
+            <div class="flex-1 flex items-center gap-3 font-bold text-xs text-blue-950">
+              <div class="w-1 h-5 bg-green-600 rounded-full"></div><div class="w-6 h-6 bg-green-700 rounded-full"></div> BRA
+            </div>
+            <div class="w-7 text-center text-xs font-medium">2</div><div class="w-7 text-center text-xs font-medium">+2</div><div class="w-7 text-center text-xs font-black">3</div>
+          </div>
+        </div>
+        <div class="mt-8 pt-6 border-t border-gray-100 text-[9px] text-gray-400 leading-relaxed flex gap-3">
+          <div class="w-5 h-5 border border-gray-300 rounded-full flex items-center justify-center text-[10px] shrink-0 italic">i</div>
+          <div>Los 2 mejores equipos de cada grupo avanzan a octavos de final. Desempates decididos por diferencia de goles.</div>
+        </div>
+      </div>
+
+      <div class="bg-[#80ff80] rounded-[2rem] p-8 flex flex-col gap-4 relative overflow-hidden group">
+        <div class="font-black text-blue-950 text-2xl leading-tight">Pulse Premium</div>
+        <div class="text-blue-900 text-xs font-medium leading-relaxed max-w-[180px]">Entrevistas exclusivas a pie de campo y resúmenes multicámara.</div>
+        <div class="bg-blue-950 text-white px-6 py-3 rounded-xl font-bold text-[10px] w-fit mt-2 z-10">HAZTE PRO AHORA</div>
+        <div class="absolute -bottom-6 -right-6 w-32 h-32 bg-green-300/40 rounded-full flex items-center justify-center">
+            <div class="w-20 h-20 border-4 border-green-400/30 rounded-full"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="flex flex-col gap-6">
+    <div class="flex justify-between items-end">
+      <div>
+        <div class="text-blue-950 text-3xl font-black italic">Camino a la Final</div>
+        <div class="text-gray-400 text-sm mt-1">El camino hacia la gran final</div>
+      </div>
+      <div class="text-green-600 font-bold text-xs flex items-center gap-2 cursor-pointer">Cuadro Completo <span class="text-sm">↗</span></div>
+    </div>
+    
+    <div class="bg-[#002147] p-10 rounded-[2.5rem] flex gap-8 items-center justify-between">
+      <div class="flex flex-col gap-6 flex-1">
+        <div class="bg-blue-900/30 border border-white/5 rounded-2xl p-5 flex flex-col gap-4">
+          <div class="flex justify-between text-[10px] font-bold text-gray-500 tracking-wider"><div>MATCH 49</div><div>JUN 30</div></div>
+          <div class="flex flex-col gap-2">
+            <div class="flex justify-between text-white font-bold text-sm"><div>Ganador</div><div>—</div></div>
+            <div class="flex justify-between text-white font-bold text-sm"><div>Segundo</div><div>—</div></div>
+          </div>
+        </div>
+        <div class="bg-blue-900/30 border border-white/5 rounded-2xl p-5 flex flex-col gap-4">
+          <div class="flex justify-between text-[10px] font-bold text-gray-500 tracking-wider"><div>MATCH 50</div><div>JUN 30</div></div>
+          <div class="flex justify-between text-white font-bold text-sm"><div>Ganador</div><div>—</div></div>
+          <div class="flex justify-between text-white font-bold text-sm"><div>Segundo</div><div>—</div></div>
+        </div>
+      </div>
+
+      <div class="flex flex-col gap-6 flex-1">
+        <div class="border border-white/5 h-20 rounded-2xl"></div>
+        <div class="bg-[#8b6508]/80 border border-yellow-600/30 rounded-2xl p-6 flex flex-col gap-6">
+          <div class="flex flex-col gap-2 opacity-30">
+            <div class="bg-yellow-400 h-1.5 w-full rounded"></div>
+            <div class="bg-yellow-400 h-1.5 w-2/3 rounded"></div>
+          </div>
+          <div class="text-white font-black text-xs tracking-widest text-center">CUARTOS DE FINAL</div>
+        </div>
+        <div class="border border-white/5 h-20 rounded-2xl"></div>
+      </div>
+
+      <div class="flex-1 flex flex-col items-center justify-center gap-6">
+        <div class="relative">
+          <div class="bg-blue-900/40 w-24 h-24 rounded-full border border-white/10 flex items-center justify-center text-4xl shadow-2xl">🏆</div>
+          <div class="absolute inset-0 bg-blue-400/10 blur-xl rounded-full"></div>
+        </div>
+        <div class="text-white font-black text-xs tracking-[0.3em] uppercase">La Final</div>
+      </div>
+    </div>
+  </div>
+
+</div>        </section>
     </section>
 </Layout>

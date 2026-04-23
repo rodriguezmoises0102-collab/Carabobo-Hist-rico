@@ -17,162 +17,175 @@ import Layout from "../layouts/Layout.astro";
         </div>
     </section>
     <section class="px-10 py-20">
-        <div class="flex gap-180 py-10">
-            <div class="">
-                <p class="font-black text-2xl text-blue-950">
-                    Naciones Clasificadas
-                </p>
-                <p class="font-bold text-gray-600">Fase de Grupos</p>
-            </div>
-            <div class="gap-2">
-                <button class="bg-blue-200 rounded-2xl px-6 text-blue-800 font-bold"
-                    >TODOS LOS GRUPOS</button
-                >
-                <button class="bg-green-600 rounded-2xl px-6 text-green-300 font-bold"
-                    >FILTRAR POR RANKING</button
-                >
-            </div>
+        <div class="bg-gray-50 p-10 flex flex-col gap-8 font-sans">
+  
+  <div class="flex justify-between items-center">
+    <div class="flex flex-col gap-1">
+      <h2 class="text-3xl font-black text-[#002d5a] tracking-tight">Naciones Clasificadas</h2>
+      <div class="flex items-center gap-3">
+        <div class="bg-green-600 h-[3px] w-10"></div>
+        <span class="text-gray-500 text-xs font-bold uppercase tracking-widest">Fase de Grupos</span>
+      </div>
+    </div>
+    
+    <div class="flex gap-3">
+      <button class="bg-[#e2e8f0] text-[#002d5a] px-5 py-2 rounded-full text-xs font-bold">Todos los Grupos</button>
+      <button class="bg-[#00642d] text-white px-5 py-2 rounded-full text-xs font-bold flex items-center gap-2">
+        Filtrar por Ranking
+      </button>
+    </div>
+  </div>
+
+  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+    
+    <div class="bg-white rounded-3xl shadow-sm border border-gray-100 overflow-hidden flex flex-col">
+      <div class="h-24 p-6 bg-gradient-to-br from-blue-50 to-white flex justify-between items-start">
+        <div class="w-12 h-8 bg-gray-200 rounded-sm overflow-hidden">
+          <img src="/path/to/arg.png" class="w-full h-full object-cover" />
         </div>
-        <div>
-            <div class="flex gap-10 rounded-2xl">
-                <div class="flex-1 gap-5">
-                    <div class="flex gap-45 py-3 bg-blue-100">
-                        <div class="w-12 h-12 rounded-full bg-blue-950">
-                            Icon
-                        </div>
-                        <div class="">
-                            <p class="text-yellow-600 font-bold text-xs">
-                                RANKING FIFA
-                            </p>
-                            <p class="font-black text-xl text-blue-950">#1</p>
-                        </div>
-                    </div>
-                    <div>
-                        <div class="py-5">
-                            <p class="font-bold text-blue-950 py-2">
-                                ARGENTINA
-                            </p>
-                            <p class="font-bold text-xs text-gray-400 py-">
-                                FORMATO <br> RECIENTE
-                            </p>
-                        </div>
-                        <div>icon icon icon icon icon</div>
-                    </div>
-                </div>
-                <div class="flex-1">
-                    <div>
-                        <div class="flex gap-45 py-3 bg-blue-100">
-                            <div class="w-12 h-12 rounded-full bg-blue-950">
-                                icon
-                            </div>
-                            <div>
-                                <p class="font-bold text-yellow-600 text-xs">
-                                    RANKING FIFA
-                                </p>
-                                <p class="font-black text-blue-950 text-xl">#2</p>
-                            </div>
-                        </div>
-                        <div>
-                            <div class="py-5">
-                                <p class="font-bold text-blue-950">FRANCIA</p>
-                                <p class="font-bold text-xs text-gray-400">
-                                    FORMA <br> RECIENTE
-                                </p>
-                            </div>
-                            <div>icon icon icon icon icon</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="flex-1">
-                    <div>
-                        <div class="flex gap-45 py-3 bg-blue-100">
-                            <div class="w-12 h-12 rounded-full bg-blue-950">
-                                icon
-                            </div>
-                            <div>
-                                <p class="font-bold text-yellow-600 text-xs">RANKING FIFA</p>
-                                <p class="font-black text-blue-950 text-xl">#5</p>
-                            </div>
-                        </div>
-                        <div class="py-5">
-                            <p class="font-bold text-blue-950">BRAZIL</p>
-                            <p class="font-bold text-xs text-gray-400">FORMA <br> RECIENTE</p>
-                        </div>icon icon icon icon icon<div></div>
-                    </div>
-                </div>
-                <div class="flex-1">
-                    <div>
-                        <div class="flex gap-45 py-3 bg-blue-100">
-                            <div class="w-12 h-12 rounded-full bg-blue-950">
-                                icon
-                            </div>
-                            <div>
-                                <p class="font-bold text-yellow-600 text-xs">RANKING FIFA</p>
-                                <p class="font-black text-blue-950 text-xl">#4</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div>
-                        <div class="py-5">
-                            <p class="font-bold text-blue-950">INGLATERRA</p>
-                            <p class="font-bold text-xs text-gray-400">FORMA <br> RECIENTE</p>
-                        </div>
-                        <div>icon icon icon icon icon</div>
-                    </div>
-                </div>
-            </div>
-            <div class="flex">
-                <div class="flex-1">
-                    <div>
-                        <div class="flex gap-45 py-3 bg-blue-100">
-                            <div class="w-12 h-12 rounded-full bg-blue-950">
-                                icon
-                            </div>
-                            <div>
-                                <p class="font-bold text-yellow-600 text-xs">RANKING FIFA</p>
-                                <p class="font-black text-blue-950 text-xl">#18</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div>
-                        <div class="py-5">
-                            <p class="font-bold text-blue-950">JAPON</p>
-                            <p class="font-bold text-xs text-gray-400">FORMATO <br> RECIENTE</p>
-                        </div>
-                        <div>icon icon icon icon icon</div>
-                    </div>
-                </div>
-                <div class="flex-1">
-                    <div>
-                        <div class="flex gap-45 py-3 bg-blue-100">
-                            <div class="w-12 h-12 rounded-full bg-blue-950">
-                                icon
-                            </div>
-                            <div>
-                                <p class="font-bold text-yellow-600 text-xs">RANKING FIFA</p>
-                                <p class="font-black text-blue-950 text-xl">#13</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div>
-                        <div class="py-5">
-                            <p class="font-bold text-blue-950">MARRUECOS</p>
-                            <p class="font-bold text-xs text-gray-400">FORMATO <br> RECIENTE</p>
-                        </div>
-                        <div>icon icon icon icon icon</div>
-                    </div>
-                </div>
-            </div>
+        <div class="text-right">
+          <p class="text-[8px] font-black text-gray-400 uppercase tracking-tighter">Ranking FIFA</p>
+          <p class="text-2xl font-black text-[#002d5a] italic">#1</p>
         </div>
+      </div>
+      <div class="p-6 flex flex-col gap-6">
+        <h3 class="text-xl font-black text-[#002d5a]">Argentina</h3>
+        <div class="flex flex-col gap-2">
+          <p class="text-[9px] font-bold text-gray-400 uppercase tracking-widest">Forma Reciente</p>
+          <div class="flex gap-1.5">
+            {['W','W','W','D','W'].map(f => (
+              <span class={`w-5 h-5 ${f === 'W' ? 'bg-green-600' : 'bg-yellow-500'} text-white text-[8px] font-bold rounded-full flex items-center justify-center`}>{f}</span>
+            ))}
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="bg-white rounded-3xl shadow-sm border border-gray-100 overflow-hidden flex flex-col">
+      <div class="h-24 p-6 bg-gradient-to-br from-indigo-50 to-white flex justify-between items-start">
+        <div class="w-12 h-8 bg-gray-200 rounded-sm overflow-hidden">
+          <img src="/path/to/fra.png" class="w-full h-full object-cover" />
+        </div>
+        <div class="text-right">
+          <p class="text-[8px] font-black text-gray-400 uppercase tracking-tighter">Ranking FIFA</p>
+          <p class="text-2xl font-black text-[#002d5a] italic">#2</p>
+        </div>
+      </div>
+      <div class="p-6 flex flex-col gap-6">
+        <h3 class="text-xl font-black text-[#002d5a]">France</h3>
+        <div class="flex flex-col gap-2">
+          <p class="text-[9px] font-bold text-gray-400 uppercase tracking-widest">Forma Reciente</p>
+          <div class="flex gap-1.5">
+            {['W','W','L','W','W'].map(f => (
+              <span class={`w-5 h-5 ${f === 'W' ? 'bg-green-600' : 'bg-red-600'} text-white text-[8px] font-bold rounded-full flex items-center justify-center`}>{f}</span>
+            ))}
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="bg-white rounded-3xl shadow-sm border border-gray-100 overflow-hidden flex flex-col">
+      <div class="h-24 p-6 bg-gradient-to-br from-yellow-50 to-white flex justify-between items-start">
+        <div class="w-12 h-8 bg-gray-200 rounded-sm overflow-hidden">
+          <img src="/path/to/bra.png" class="w-full h-full object-cover" />
+        </div>
+        <div class="text-right">
+          <p class="text-[8px] font-black text-gray-400 uppercase tracking-tighter">Ranking FIFA</p>
+          <p class="text-2xl font-black text-[#002d5a] italic">#5</p>
+        </div>
+      </div>
+      <div class="p-6 flex flex-col gap-6">
+        <h3 class="text-xl font-black text-[#002d5a]">Brazil</h3>
+        <div class="flex flex-col gap-2">
+          <p class="text-[9px] font-bold text-gray-400 uppercase tracking-widest">Forma Reciente</p>
+          <div class="flex gap-1.5">
+            {['W','D','W','W','D'].map(f => (
+              <span class={`w-5 h-5 ${f === 'W' ? 'bg-green-600' : 'bg-yellow-500'} text-white text-[8px] font-bold rounded-full flex items-center justify-center`}>{f}</span>
+            ))}
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="bg-white rounded-3xl shadow-sm border border-gray-100 overflow-hidden flex flex-col">
+      <div class="h-24 p-6 bg-gradient-to-br from-red-50 to-white flex justify-between items-start">
+        <div class="w-12 h-8 bg-gray-200 rounded-sm overflow-hidden">
+          <img src="/path/to/eng.png" class="w-full h-full object-cover" />
+        </div>
+        <div class="text-right">
+          <p class="text-[8px] font-black text-gray-400 uppercase tracking-tighter">Ranking FIFA</p>
+          <p class="text-2xl font-black text-[#002d5a] italic">#4</p>
+        </div>
+      </div>
+      <div class="p-6 flex flex-col gap-6">
+        <h3 class="text-xl font-black text-[#002d5a]">England</h3>
+        <div class="flex flex-col gap-2">
+          <p class="text-[9px] font-bold text-gray-400 uppercase tracking-widest">Forma Reciente</p>
+          <div class="flex gap-1.5">
+            {['W','W','W','W','W'].map(f => (
+              <span class="w-5 h-5 bg-green-600 text-white text-[8px] font-bold rounded-full flex items-center justify-center">{f}</span>
+            ))}
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="bg-white rounded-3xl shadow-sm border border-gray-100 overflow-hidden flex flex-col">
+      <div class="h-24 p-6 bg-gradient-to-br from-red-50 to-white flex justify-between items-start">
+        <div class="w-12 h-8 bg-gray-200 rounded-sm overflow-hidden">
+          <img src="/path/to/jpn.png" class="w-full h-full object-cover" />
+        </div>
+        <div class="text-right">
+          <p class="text-[8px] font-black text-gray-400 uppercase tracking-tighter">Ranking FIFA</p>
+          <p class="text-2xl font-black text-[#002d5a] italic">#18</p>
+        </div>
+      </div>
+      <div class="p-6 flex flex-col gap-6">
+        <h3 class="text-xl font-black text-[#002d5a]">Japan</h3>
+        <div class="flex flex-col gap-2">
+          <p class="text-[9px] font-bold text-gray-400 uppercase tracking-widest">Forma Reciente</p>
+          <div class="flex gap-1.5">
+            {['W','W','W','W','D'].map(f => (
+              <span class={`w-5 h-5 ${f === 'W' ? 'bg-green-600' : 'bg-yellow-500'} text-white text-[8px] font-bold rounded-full flex items-center justify-center`}>{f}</span>
+            ))}
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="bg-white rounded-3xl shadow-sm border border-gray-100 overflow-hidden flex flex-col">
+      <div class="h-24 p-6 bg-gradient-to-br from-red-100 to-white flex justify-between items-start">
+        <div class="w-12 h-8 bg-gray-200 rounded-sm overflow-hidden">
+          <img src="/path/to/mar.png" class="w-full h-full object-cover" />
+        </div>
+        <div class="text-right">
+          <p class="text-[8px] font-black text-gray-400 uppercase tracking-tighter">Ranking FIFA</p>
+          <p class="text-2xl font-black text-[#002d5a] italic">#13</p>
+        </div>
+      </div>
+      <div class="p-6 flex flex-col gap-6">
+        <h3 class="text-xl font-black text-[#002d5a]">Morocco</h3>
+        <div class="flex flex-col gap-2">
+          <p class="text-[9px] font-bold text-gray-400 uppercase tracking-widest">Forma Reciente</p>
+          <div class="flex gap-1.5">
+            {['W','D','W','W','L'].map(f => (
+              <span class={`w-5 h-5 ${f === 'W' ? 'bg-green-600' : f === 'D' ? 'bg-yellow-500' : 'bg-red-600'} text-white text-[8px] font-bold rounded-full flex items-center justify-center`}>{f}</span>
+            ))}
+          </div>
+        </div>
+        
+      </div>
+    </div>
+
+
+  </div>
+</div>
     </section>
     <section class="px-10 py-30">
         <div class="bg-blue-100 rounded-2xl ">
             <div class="flex gap-10 px-10 py-20 rounded-2xl">
                 <div class="bg-white px-10 rounded-2xl py-10">
                     <div class="flex justify-center gap-8 py-5">
-                        <div class="h-12 w-12 bg-blue-300 rounded-full">
-                            icon
-                        </div>
                         <div>
                             <p class="font-bold text-xl text-blue-950">NACIONES <br> CLASIFICADAS</p>
                             <p class="font-bold text-green-500">CAMPEONES DEFENSORES</p>
